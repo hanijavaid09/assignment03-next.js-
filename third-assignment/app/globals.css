@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color:#4b3f0a9d;
+ color:WHITE;
+}
+
+h1{
+
+  color: white;
+  letter-spacing: 0.05em; 
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  padding: 8px 16px;
+  font-size: 1000px;
+}
+.menuLink{
+        color:WHITE;
+        font-size: 20px;
+        font-weight: 300px;
+       
+    }
+    .menuLink:hover{
+        color: #ff9900;
+    }
+    .menuLink:active{
+        color: #ff9900;
+    }
+    .menuLink:focus{
+        color: #ff9900;
+    }
+
+    .quote-container {
+      text-align: center;
+      font-family:'Times New Roman', Times, serif; 
+      color: #ffffff; 
+      border: 6px double #FFC300;
+    }
+    
+    .quote-container p {
+      margin: 0;
+      font-weight: bold;
+      font-size: 1.5rem;
+      letter-spacing: 0.05em;
+    }
+    
+    .quote-container p:nth-child(1) {
+      font-size: 50px;
+      color: #ffffff;
+    }
+    
+    .quote-container{
+      font-size: 50px;
+      color: #FFC300; 
+    }
+    
+    .quote-container p:nth-child(3) {
+      font-size: 1.8rem;
+      font-size: 55px;
+      color: #ffffff;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(10px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    
+    .quote-container p {
+      animation: fadeIn 1s ease-in-out;
+    }
+    
+    
